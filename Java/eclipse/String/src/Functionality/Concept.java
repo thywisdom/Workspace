@@ -1,0 +1,14 @@
+package Functionality;
+
+public class Concept {
+
+	public static void main(String[] args) {
+		String a="jivyanshu Eupta";
+        char[] b=a.toCharArray();
+        b[0]='D';
+        b[10]='G';
+        System.out.println(b);
+	}
+
+}
+   

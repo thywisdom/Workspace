@@ -1,0 +1,26 @@
+package Functionality;
+
+import java.util.Scanner;
+
+public class Strongweek {
+
+	public static boolean isStrong(String password) {
+        return password.matches("^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[@#$%^&+=!]).{8,}$");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a password: ");
+        String password = scanner.nextLine();
+
+        System.out.println(isStrong(password) ? "Strong password! ✅" : "Weak password. ❌");
+        scanner.close();
+	
+	
+	
+	
+	
+	
+	}
+	  }
+		
