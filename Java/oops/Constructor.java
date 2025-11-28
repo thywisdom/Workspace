@@ -12,7 +12,7 @@ class User{
     String getName(){
         return name;
     }
-    int getID() 
+    int getID() {
         return ID;
     }
     long getPhone(){

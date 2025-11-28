@@ -1,0 +1,15 @@
+/media/VAULT/workspace/dotnet/bin/Debug/net9.0/dotnet
+/media/VAULT/workspace/dotnet/bin/Debug/net9.0/dotnet.deps.json
+/media/VAULT/workspace/dotnet/bin/Debug/net9.0/dotnet.runtimeconfig.json
+/media/VAULT/workspace/dotnet/bin/Debug/net9.0/dotnet.dll
+/media/VAULT/workspace/dotnet/bin/Debug/net9.0/dotnet.pdb
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/dotnet.GeneratedMSBuildEditorConfig.editorconfig
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/dotnet.AssemblyInfoInputs.cache
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/dotnet.AssemblyInfo.cs
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/dotnet.csproj.CoreCompileInputs.cache
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/dotnet.sourcelink.json
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/dotnet.dll
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/refint/dotnet.dll
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/dotnet.pdb
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/dotnet.genruntimeconfig.cache
+/media/VAULT/workspace/dotnet/obj/Debug/net9.0/ref/dotnet.dll
