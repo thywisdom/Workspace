@@ -1,8 +1,7 @@
 package com.examly;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.*;
+import com.examly.service.StudentService;
+import com.examly.entity.Student;
 /**
  * Hello world!
  *
@@ -11,17 +10,14 @@ public class App
 {
     public static void main(String[] args) {
         
-        String url = "jdbc:mysql://localhost:3306/school";
-        String usr = "root";
-        String pass = "suman";
-        try{
-             Connection con = DriverManager.getConnection(url,usr,pass);
+        StudentService.DBcheck();
 
-            System.out.println("Databse connected successfully");
+        Student s1 = new Student(7,"Suman",915946880,'B',"witnesstowidom@gmail.com",75);
+        Student s2 = new Student(8,"Sakthi",915544880,'A',"sakthisuman10@gmail.com",80);
 
-        }catch(Exception e){
+       //StudentService.addStudent(s2);
 
-            e.printStackTrace();
-        }
+       StudentService.showStudents();
+       
     }
 }

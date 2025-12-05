@@ -4,9 +4,9 @@ import java.sql.*;
 
 public class DBConnectionUtil {
 
-    static String url = "jdbc:mysql://localhost:3306/school";
-    static String usr = "root";
-    static String pass = "suman";
+    static   String url = "jdbc:mysql://localhost:3306/school";
+    static   String usr = "root";
+    static   String pass = "suman";
         
 
     public static Connection getConnection() {
